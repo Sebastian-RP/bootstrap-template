@@ -1,0 +1,95 @@
+body{
+    position: relative;
+    }
+
+input{
+    border: 0;
+}
+
+.navbar-property{
+   background: #44d5ae;
+}
+
+ a.brand-property{
+    font-size: 2.2rem;
+}
+
+nav .header-property{
+    font-size: 1.8rem;
+}
+
+.bg-cuadricula{
+    background: linear-gradient(90deg, transparent 93%, #120a07 7%), 
+    linear-gradient(180deg, #b3b3b3 90%, #120a07 90%);
+    background-size:  40px, 60px 40px;
+}
+
+.horizontal-line{
+    height: 0.25rem;
+    width: 7rem;
+    background: #ffffff;
+    border-radius: 1rem;
+}
+/*estilos del icono de estrella*/
+.tamano{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.central-container{
+    padding-top: calc(107px + 6rem);
+}
+
+.img-central-profile{
+    height: 15.5rem;
+}
+
+.img-portafolio-cards{
+    height: 15.5rem;
+}
+
+.star-cards{
+    color: #1aa3ff;
+}
+
+.bg-cards{
+    background: #1aa3ff;
+}
+
+/*quitar borde a los input del formulario contact me*/
+.sin-borde{
+    border: 0;
+}
+
+.form-group ::placeholder {
+  color: #6c757d;
+  font-size: 1.9rem;
+  text-transform: capitalize;
+}
+
+textarea{
+    resize: none;
+}
+
+.btn-textbigger{
+    font-size: 1.3rem;
+    
+}
+
+.bg-about{
+    background: #117888;
+}
+
+.bg-send{
+    background: #6edec0;
+}
+
+.footer-social{
+    padding: 5rem 0;
+    background: #0b505b;
+}
+
+.social-icon:hover{
+    background: #ffffff;
+    color: #0b505b;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body data-spy="scroll" data-target="#navbar-spy" data-offset="0">
+    <!--nav bar-->
+        <!--inicio header-->
+        <div id="navbar-spy" class="navbar-property fixed-top container-fluid py-3">
+            <nav class="container navbar navbar-expand-lg d-flex navbar-light">
+                <a class="header-property navbar-brand text-uppercase font-weight-bolder" href="#">bootstrap</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarNavAltMarkup" class="header-property collapse navbar-collapse font-weight-bold nav-pills" >
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link text-uppercase" href="#portafolio-cuadrado">portafolio</a>
+                        <a class="nav-item nav-link text-uppercase" href="#lorem-about">about</a>
+                        <a class="nav-item nav-link text-uppercase" href="#fomulario-contacto">contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--fin header-->
+        <!--inicio del la tarjeta principal-->
+    
+        <div class="central-container bg-cuadricula">
+            <div class="container-fluid  d-flex flex-column align-items-center justify-content-around">
+                <img src="imagenes/profile.jpg" alt="..." class="img-central-profile rounded-circle mb-5">
+                <h2 class="text-uppercase display-4 mb-4 text-center text-white">start bootstrap</h2>
+                <div class="row align-items-center mb-4">    
+                    <div class="horizontal-line"></div>
+                    <div class="px-3"><i class="fa fa-star fa-3x text-white" aria-hidden="true"></i></div>
+                    <div class="horizontal-line"></div>
+                </div>
+                <div class="row align-items-center pb-5 text-center">
+                    <i class="fa fa-code fa-2x d-none d-sm-inline text-white" aria-hidden="true"></i>
+                    <h2 class="m-3 text-white h1">web developer</h2>
+                    <i class="fa fa-code fa-2x d-none d-sm-inline text-white" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <!--fin del la tardejar principal-->
+        <!--Inicio portafolio-->
+        <div id="portafolio-cuadrado" class="container-fluid mt-5 pt-5">
+            <h2 class="text-center text-uppercase display-4 font-weight-bold star-cards">portafolio</h2>
+            <div class="row align-items-center mb-4 justify-content-center">
+                <div class="horizontal-line bg-cards"></div>
+                <div class="px-3"><i class="fa fa-star fa-3x star-cards" aria-hidden="true"></i></div>
+                <div class="horizontal-line bg-cards"></div>
+            </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="mx-3 bg-cards  rounded">
+                        <img src="imagenes/card-1-cuadro.jpg" alt="..." class="img-fluid rounded-circle">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="mx-3 bg-cards  rounded">
+                        <img src="imagenes/card-2-cuadro.jpg" alt="..." class="img-fluid rounded-circle">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="mx-3 bg-cards rounded">
+                        <img src="imagenes/card-3-cuadro.jpg" alt="..." class="img-fluid rounded-circle">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="mx-3 bg-cards rounded">
+                        <img src="imagenes/card-4-cuadro.jpg" alt="..." class="img-fluid rounded-circle">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="mx-3 bg-cards rounded">
+                        <img src="imagenes/card-5-cuadro.jpg" alt="..." class="img-fluid rounded-circle">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
+                    <div class="mx-3 bg-cards rounded">
+                        <img src="imagenes/card-6-cuadro.jpg" alt="..." class="img-fluid rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin portafolio-->
+        <!--Inicio about-->
+        <div id="lorem-about" class="container-fluid bg-about py-5 text-white">
+            <div class="container">
+                <h2 class="text-center text-uppercase font-weight-bold display-4">about</h2>
+                <div class="d-flex justify-content-center align-items-center mb-4">
+                    <div class="horizontal-line"></div>
+                    <div class="px-3"><i class="fa fa-star fa-3x text-white" aria-hidden="true"></i></div>
+                    <div class="horizontal-line"></div>
+                </div>
+                <div class="d-block d-md-flex justify-content-center">
+                    <div class="col-12 col-md-4 pb-3">
+                        <p class="text-justify lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur tempora officia inventore dicta sint nulla, quibusdam harum voluptatem molestias perferendis repellendus enim, numquam eveniet dignissimos totam? Quod deserunt sequi similique earum.</p>
+                    </div>
+                    <div class="col-12 col-md-4 pb-3">
+                        <p class="text-justify lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur tempora officia inventore dicta sint nulla, quibusdam harum voluptatem molestias perferendis repellendus enim, numquam eveniet dignissimos totam? Quod deserunt sequi similique earum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin about-->
+        <!--Inicio Contact me-->
+        <div id="fomulario-contacto" class="container py-5 col-8">
+            <h2 class="text-center text-uppercase font-weight-bold display-4">contact me</h2>
+            <div class="d-flex justify-content-center align-items-center mb-4">
+                <div class="horizontal-line bg-dark"></div>
+                <div class="px-3"><i class="fa fa-star fa-3x text-dark" aria-hidden="true"></i></div>
+                <div class="horizontal-line bg-dark"></div>
+            </div>
+
+            <div class="form-group ">
+                <input type="text" placeholder="name" class="form-control display-1 sin-borde py-4">
+                <hr/>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="email addres" class="form-control sin-borde py-4">
+                <hr/>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="phone number" class="form-control sin-borde py-4">
+                <hr/>
+            </div>
+            <div class="form-group">
+                <textarea rows="5" placeholder="message" class="form-control sin-borde"></textarea>
+                <hr/>
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-info btn-textbigger py-4 px-5 text-capitalize">send</button>
+            </div>
+        </div>
+        <!--Fin contact me-->
+        <!--Inicio footer-->
+        <footer class=" mt-5  footer-social">
+            <div class="container">
+                <div class="row text-center text-white">
+                    <div class="col-12 col-md-12 col-lg-4 pb-3">
+                        <h3 class="text-uppercase">location</h3>
+                        <p class="lead">Av. Cra. 60 No. 57 – 60 – 379 3520 ext. 3000</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h3 class="text-uppercase">social media</h3>
+                        <div class="container">
+                            <div class="d-flex">
+                                <div class="border border-white rounded-circle m-2 social-icon">
+                                    <i class="fa fa-facebook fa-3x p-2 " aria-hidden="true"></i>
+                                </div>
+                                <div class="border border-white rounded-circle m-2 social-icon">
+                                    <i class="fa fa-twitter fa-3x p-2" aria-hidden="true"></i>
+                                </div>
+                                <div class="border border-white rounded-circle m-2 social-icon">
+                                    <i class="fa fa-linkedin fa-3x p-2" aria-hidden="true"></i>
+                                </div>
+                                <div class="border border-white rounded-circle m-2 social-icon">
+                                    <i class="fa fa-youtube-play fa-3x p-2" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h3 class="text-uppercase">what did i use?</h3>
+                        <p class="lead">HTML, CSS, bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="text-center py-4 bg-dark">
+            <footer class="text-white">Copyright © Your Website 2020</cite></footer>
+        </div>
+        <!--Fin footer-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
